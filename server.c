@@ -14,7 +14,7 @@
 
 int socket_fd;
 
-void createSocket()
+void create_socket()
 {
     socket_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (socket_fd == -1)
@@ -24,7 +24,7 @@ void createSocket()
     }
 }
 
-void bindSocket(int server_fd, const char *ip_address, int port)
+void bind_socket(int server_fd, const char *ip_address, int port)
 {
     struct sockaddr_in address;
     memset(&address, 0, sizeof(address));
@@ -40,9 +40,9 @@ void bindSocket(int server_fd, const char *ip_address, int port)
     }
 }
 
-void listenSocket(int server_fd)
+void listen_socket(int server_fd)
 {
-    if (listen(socket_fd, MAX_CONNECTIONS) == -1)
+    if (listen(server_fd, MAX_CONNECTIONS) == -1)
     {
         perror("Listening failed");
         exit(EXIT_FAILURE);
@@ -255,9 +255,9 @@ void run_server(int argc, char *argv[])
         port = DEFAULT_PORT;
     }
 
-    createSocket();
-    bindSocket(socket_fd, ip_address, port);
-    listenSocket(socket_fd);
+    create_socket();
+    bind_socket(socket_fd, ip_address, port);
+    listen_socket(socket_fd);
 
     printf("Server running on IP:%s PORT:%d\n", ip_address, port);
 
