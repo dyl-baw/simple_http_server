@@ -1,0 +1,1389 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunsuffixedfloatconstants failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_286c5 && [1/2] Building C object CMakeFiles/cmTC_286c5.dir/src.c.o
+warning: unknown warning option '-Wunsuffixed-float-constants' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_286c5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Warithconversion failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0420c && [1/2] Building C object CMakeFiles/cmTC_0420c.dir/src.c.o
+warning: unknown warning option '-Warith-conversion' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_0420c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunsafeloopoptimizations failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46a21 && [1/2] Building C object CMakeFiles/cmTC_46a21.dir/src.c.o
+warning: unknown warning option '-Wunsafe-loop-optimizations' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_46a21
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wvectoroperationperformance failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f627 && [1/2] Building C object CMakeFiles/cmTC_9f627.dir/src.c.o
+warning: unknown warning option '-Wvector-operation-performance' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_9f627
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Walloczero failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6efbc && [1/2] Building C object CMakeFiles/cmTC_6efbc.dir/src.c.o
+warning: unknown warning option '-Walloc-zero'; did you mean '-Walloca'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_6efbc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wtrampolines failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_31125 && [1/2] Building C object CMakeFiles/cmTC_31125.dir/src.c.o
+warning: unknown warning option '-Wtrampolines' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_31125
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wtsan failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_48a6c && [1/2] Building C object CMakeFiles/cmTC_48a6c.dir/src.c.o
+warning: unknown warning option '-Wtsan' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_48a6c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3ca62 && [1/2] Building C object CMakeFiles/cmTC_3ca62.dir/src.c.o
+warning: unknown warning option '-Wformat-overflow=2'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_3ca62
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatsignedness failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_371e2 && [1/2] Building C object CMakeFiles/cmTC_371e2.dir/src.c.o
+warning: unknown warning option '-Wformat-signedness' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_371e2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wjumpmissesinit failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3eb2c && [1/2] Building C object CMakeFiles/cmTC_3eb2c.dir/src.c.o
+warning: unknown warning option '-Wjump-misses-init' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_3eb2c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d3a42 && [1/2] Building C object CMakeFiles/cmTC_d3a42.dir/src.c.o
+warning: unknown warning option '-Wformat-truncation=2' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_d3a42
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointercompare failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b5c26 && [1/2] Building C object CMakeFiles/cmTC_b5c26.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b5c26.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointercompare  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-compare -MD -MT CMakeFiles/cmTC_b5c26.dir/src.c.o -MF CMakeFiles/cmTC_b5c26.dir/src.c.o.d -o CMakeFiles/cmTC_b5c26.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-compare' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointersubtract failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6a4d9 && [1/2] Building C object CMakeFiles/cmTC_6a4d9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6a4d9.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointersubtract  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-subtract -MD -MT CMakeFiles/cmTC_6a4d9.dir/src.c.o -MF CMakeFiles/cmTC_6a4d9.dir/src.c.o.d -o CMakeFiles/cmTC_6a4d9.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-subtract' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fcfprotection=full failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_543e9 && [1/2] Building C object CMakeFiles/cmTC_543e9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_543e9.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fcfprotection=full  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fcf-protection=full -MD -MT CMakeFiles/cmTC_543e9.dir/src.c.o -MF CMakeFiles/cmTC_543e9.dir/src.c.o.d -o CMakeFiles/cmTC_543e9.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+error: option 'cf-protection=return' cannot be specified on this target
+error: option 'cf-protection=branch' cannot be specified on this target
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fhardencontrolflowredundancy failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2bd41 && [1/2] Building C object CMakeFiles/cmTC_2bd41.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2bd41.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fhardencontrolflowredundancy  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fharden-control-flow-redundancy -MD -MT CMakeFiles/cmTC_2bd41.dir/src.c.o -MF CMakeFiles/cmTC_2bd41.dir/src.c.o.d -o CMakeFiles/cmTC_2bd41.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-fharden-control-flow-redundancy'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fstackprotector=all failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5788c && [1/2] Building C object CMakeFiles/cmTC_5788c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5788c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fstackprotector=all  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fstack-protector=all -MD -MT CMakeFiles/cmTC_5788c.dir/src.c.o -MF CMakeFiles/cmTC_5788c.dir/src.c.o.d -o CMakeFiles/cmTC_5788c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument '-fstack-protector=all'; did you mean '-fstack-protector-all'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_finstrumentfunctions failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_201cd && [1/2] Building C object CMakeFiles/cmTC_201cd.dir/src.c.o
+[2/2] Linking C executable cmTC_201cd
+FAILED: cmTC_201cd 
+: && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib CMakeFiles/cmTC_201cd.dir/src.c.o -o cmTC_201cd   && :
+Undefined symbols for architecture arm64:
+  "___cyg_profile_func_enter", referenced from:
+      _main in src.c.o
+  "___cyg_profile_func_exit", referenced from:
+      _main in src.c.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=leak failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fdbaf && [1/2] Building C object CMakeFiles/cmTC_fdbaf.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fdbaf.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=leak  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=leak -MD -MT CMakeFiles/cmTC_fdbaf.dir/src.c.o -MF CMakeFiles/cmTC_fdbaf.dir/src.c.o.d -o CMakeFiles/cmTC_fdbaf.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=leak' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfi failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a3af9 && [1/2] Building C object CMakeFiles/cmTC_a3af9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a3af9.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi -MD -MT CMakeFiles/cmTC_a3af9.dir/src.c.o -MF CMakeFiles/cmTC_a3af9.dir/src.c.o.d -o CMakeFiles/cmTC_a3af9.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ef09e && [1/2] Building C object CMakeFiles/cmTC_ef09e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ef09e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall -MD -MT CMakeFiles/cmTC_ef09e.dir/src.c.o -MF CMakeFiles/cmTC_ef09e.dir/src.c.o.d -o CMakeFiles/cmTC_ef09e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-icall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7c106 && [1/2] Building C object CMakeFiles/cmTC_7c106.dir/src.c.o
+FAILED: CMakeFiles/cmTC_7c106.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall -MD -MT CMakeFiles/cmTC_7c106.dir/src.c.o -MF CMakeFiles/cmTC_7c106.dir/src.c.o.d -o CMakeFiles/cmTC_7c106.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-vcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e81f2 && [1/2] Building C object CMakeFiles/cmTC_e81f2.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e81f2.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall -MD -MT CMakeFiles/cmTC_e81f2.dir/src.c.o -MF CMakeFiles/cmTC_e81f2.dir/src.c.o.d -o CMakeFiles/cmTC_e81f2.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-nvcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_951e8 && [1/2] Building C object CMakeFiles/cmTC_951e8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_951e8.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast -MD -MT CMakeFiles/cmTC_951e8.dir/src.c.o -MF CMakeFiles/cmTC_951e8.dir/src.c.o.d -o CMakeFiles/cmTC_951e8.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-derived-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d93b0 && [1/2] Building C object CMakeFiles/cmTC_d93b0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d93b0.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast -MD -MT CMakeFiles/cmTC_d93b0.dir/src.c.o -MF CMakeFiles/cmTC_d93b0.dir/src.c.o.d -o CMakeFiles/cmTC_d93b0.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-unrelated-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5397e && [1/2] Building C object CMakeFiles/cmTC_5397e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5397e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access -MD -MT CMakeFiles/cmTC_5397e.dir/src.c.o -MF CMakeFiles/cmTC_5397e.dir/src.c.o.d -o CMakeFiles/cmTC_5397e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8f90e && [1/2] Building C object CMakeFiles/cmTC_8f90e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8f90e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-general -MD -MT CMakeFiles/cmTC_8f90e.dir/src.c.o -MF CMakeFiles/cmTC_8f90e.dir/src.c.o.d -o CMakeFiles/cmTC_8f90e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4990c && [1/2] Building C object CMakeFiles/cmTC_4990c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4990c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-general -MD -MT CMakeFiles/cmTC_4990c.dir/src.c.o -MF CMakeFiles/cmTC_4990c.dir/src.c.o.d -o CMakeFiles/cmTC_4990c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_87ad0 && [1/2] Building C object CMakeFiles/cmTC_87ad0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_87ad0.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-general -MD -MT CMakeFiles/cmTC_87ad0.dir/src.c.o -MF CMakeFiles/cmTC_87ad0.dir/src.c.o.d -o CMakeFiles/cmTC_87ad0.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e3ae1 && [1/2] Building C object CMakeFiles/cmTC_e3ae1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e3ae1.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-general -MD -MT CMakeFiles/cmTC_e3ae1.dir/src.c.o -MF CMakeFiles/cmTC_e3ae1.dir/src.c.o.d -o CMakeFiles/cmTC_e3ae1.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_23531 && [1/2] Building C object CMakeFiles/cmTC_23531.dir/src.c.o
+FAILED: CMakeFiles/cmTC_23531.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-general -MD -MT CMakeFiles/cmTC_23531.dir/src.c.o -MF CMakeFiles/cmTC_23531.dir/src.c.o.d -o CMakeFiles/cmTC_23531.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e3604 && [1/2] Building C object CMakeFiles/cmTC_e3604.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e3604.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-general -MD -MT CMakeFiles/cmTC_e3604.dir/src.c.o -MF CMakeFiles/cmTC_e3604.dir/src.c.o.d -o CMakeFiles/cmTC_e3604.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c596f && [1/2] Building C object CMakeFiles/cmTC_c596f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c596f.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-lto -MD -MT CMakeFiles/cmTC_c596f.dir/src.c.o -MF CMakeFiles/cmTC_c596f.dir/src.c.o.d -o CMakeFiles/cmTC_c596f.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d20e && [1/2] Building C object CMakeFiles/cmTC_4d20e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4d20e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-lto -MD -MT CMakeFiles/cmTC_4d20e.dir/src.c.o -MF CMakeFiles/cmTC_4d20e.dir/src.c.o.d -o CMakeFiles/cmTC_4d20e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d5984 && [1/2] Building C object CMakeFiles/cmTC_d5984.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d5984.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-lto -MD -MT CMakeFiles/cmTC_d5984.dir/src.c.o -MF CMakeFiles/cmTC_d5984.dir/src.c.o.d -o CMakeFiles/cmTC_d5984.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_262c9 && [1/2] Building C object CMakeFiles/cmTC_262c9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_262c9.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-lto -MD -MT CMakeFiles/cmTC_262c9.dir/src.c.o -MF CMakeFiles/cmTC_262c9.dir/src.c.o.d -o CMakeFiles/cmTC_262c9.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b952d && [1/2] Building C object CMakeFiles/cmTC_b952d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b952d.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-lto -MD -MT CMakeFiles/cmTC_b952d.dir/src.c.o -MF CMakeFiles/cmTC_b952d.dir/src.c.o.d -o CMakeFiles/cmTC_b952d.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_db214 && [1/2] Building C object CMakeFiles/cmTC_db214.dir/src.c.o
+FAILED: CMakeFiles/cmTC_db214.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-lto -MD -MT CMakeFiles/cmTC_db214.dir/src.c.o -MF CMakeFiles/cmTC_db214.dir/src.c.o.d -o CMakeFiles/cmTC_db214.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b1bdb && [1/2] Building C object CMakeFiles/cmTC_b1bdb.dir/src.c.o
+warning: unknown warning option '-Wformat-overflow=2'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_b1bdb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9ba78 && [1/2] Building C object CMakeFiles/cmTC_9ba78.dir/src.c.o
+warning: unknown warning option '-Wformat-truncation=2' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_9ba78
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointercompare failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_78832 && [1/2] Building C object CMakeFiles/cmTC_78832.dir/src.c.o
+FAILED: CMakeFiles/cmTC_78832.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointercompare  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-compare -MD -MT CMakeFiles/cmTC_78832.dir/src.c.o -MF CMakeFiles/cmTC_78832.dir/src.c.o.d -o CMakeFiles/cmTC_78832.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-compare' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointersubtract failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c6a6a && [1/2] Building C object CMakeFiles/cmTC_c6a6a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c6a6a.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointersubtract  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-subtract -MD -MT CMakeFiles/cmTC_c6a6a.dir/src.c.o -MF CMakeFiles/cmTC_c6a6a.dir/src.c.o.d -o CMakeFiles/cmTC_c6a6a.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-subtract' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fcfprotection=full failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b7edd && [1/2] Building C object CMakeFiles/cmTC_b7edd.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b7edd.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fcfprotection=full  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fcf-protection=full -MD -MT CMakeFiles/cmTC_b7edd.dir/src.c.o -MF CMakeFiles/cmTC_b7edd.dir/src.c.o.d -o CMakeFiles/cmTC_b7edd.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+error: option 'cf-protection=return' cannot be specified on this target
+error: option 'cf-protection=branch' cannot be specified on this target
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fstackprotector=all failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb811 && [1/2] Building C object CMakeFiles/cmTC_bb811.dir/src.c.o
+FAILED: CMakeFiles/cmTC_bb811.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fstackprotector=all  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fstack-protector=all -MD -MT CMakeFiles/cmTC_bb811.dir/src.c.o -MF CMakeFiles/cmTC_bb811.dir/src.c.o.d -o CMakeFiles/cmTC_bb811.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument '-fstack-protector=all'; did you mean '-fstack-protector-all'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=leak failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0ef4 && [1/2] Building C object CMakeFiles/cmTC_b0ef4.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b0ef4.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=leak  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=leak -MD -MT CMakeFiles/cmTC_b0ef4.dir/src.c.o -MF CMakeFiles/cmTC_b0ef4.dir/src.c.o.d -o CMakeFiles/cmTC_b0ef4.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=leak' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfi failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4e128 && [1/2] Building C object CMakeFiles/cmTC_4e128.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4e128.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi -MD -MT CMakeFiles/cmTC_4e128.dir/src.c.o -MF CMakeFiles/cmTC_4e128.dir/src.c.o.d -o CMakeFiles/cmTC_4e128.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4fc32 && [1/2] Building C object CMakeFiles/cmTC_4fc32.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4fc32.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall -MD -MT CMakeFiles/cmTC_4fc32.dir/src.c.o -MF CMakeFiles/cmTC_4fc32.dir/src.c.o.d -o CMakeFiles/cmTC_4fc32.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-icall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_972fd && [1/2] Building C object CMakeFiles/cmTC_972fd.dir/src.c.o
+FAILED: CMakeFiles/cmTC_972fd.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall -MD -MT CMakeFiles/cmTC_972fd.dir/src.c.o -MF CMakeFiles/cmTC_972fd.dir/src.c.o.d -o CMakeFiles/cmTC_972fd.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-vcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b6894 && [1/2] Building C object CMakeFiles/cmTC_b6894.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b6894.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall -MD -MT CMakeFiles/cmTC_b6894.dir/src.c.o -MF CMakeFiles/cmTC_b6894.dir/src.c.o.d -o CMakeFiles/cmTC_b6894.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-nvcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e8468 && [1/2] Building C object CMakeFiles/cmTC_e8468.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e8468.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast -MD -MT CMakeFiles/cmTC_e8468.dir/src.c.o -MF CMakeFiles/cmTC_e8468.dir/src.c.o.d -o CMakeFiles/cmTC_e8468.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-derived-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_39a28 && [1/2] Building C object CMakeFiles/cmTC_39a28.dir/src.c.o
+FAILED: CMakeFiles/cmTC_39a28.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast -MD -MT CMakeFiles/cmTC_39a28.dir/src.c.o -MF CMakeFiles/cmTC_39a28.dir/src.c.o.d -o CMakeFiles/cmTC_39a28.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-unrelated-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a5e53 && [1/2] Building C object CMakeFiles/cmTC_a5e53.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a5e53.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access -MD -MT CMakeFiles/cmTC_a5e53.dir/src.c.o -MF CMakeFiles/cmTC_a5e53.dir/src.c.o.d -o CMakeFiles/cmTC_a5e53.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fa2df && [1/2] Building C object CMakeFiles/cmTC_fa2df.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fa2df.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-general -MD -MT CMakeFiles/cmTC_fa2df.dir/src.c.o -MF CMakeFiles/cmTC_fa2df.dir/src.c.o.d -o CMakeFiles/cmTC_fa2df.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b3448 && [1/2] Building C object CMakeFiles/cmTC_b3448.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b3448.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-general -MD -MT CMakeFiles/cmTC_b3448.dir/src.c.o -MF CMakeFiles/cmTC_b3448.dir/src.c.o.d -o CMakeFiles/cmTC_b3448.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5ded6 && [1/2] Building C object CMakeFiles/cmTC_5ded6.dir/src.c.o
+FAILED: CMakeFiles/cmTC_5ded6.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-general -MD -MT CMakeFiles/cmTC_5ded6.dir/src.c.o -MF CMakeFiles/cmTC_5ded6.dir/src.c.o.d -o CMakeFiles/cmTC_5ded6.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_400fe && [1/2] Building C object CMakeFiles/cmTC_400fe.dir/src.c.o
+FAILED: CMakeFiles/cmTC_400fe.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-general -MD -MT CMakeFiles/cmTC_400fe.dir/src.c.o -MF CMakeFiles/cmTC_400fe.dir/src.c.o.d -o CMakeFiles/cmTC_400fe.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_00a1e && [1/2] Building C object CMakeFiles/cmTC_00a1e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_00a1e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-general -MD -MT CMakeFiles/cmTC_00a1e.dir/src.c.o -MF CMakeFiles/cmTC_00a1e.dir/src.c.o.d -o CMakeFiles/cmTC_00a1e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_34e90 && [1/2] Building C object CMakeFiles/cmTC_34e90.dir/src.c.o
+FAILED: CMakeFiles/cmTC_34e90.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-general -MD -MT CMakeFiles/cmTC_34e90.dir/src.c.o -MF CMakeFiles/cmTC_34e90.dir/src.c.o.d -o CMakeFiles/cmTC_34e90.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_62968 && [1/2] Building C object CMakeFiles/cmTC_62968.dir/src.c.o
+FAILED: CMakeFiles/cmTC_62968.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-lto -MD -MT CMakeFiles/cmTC_62968.dir/src.c.o -MF CMakeFiles/cmTC_62968.dir/src.c.o.d -o CMakeFiles/cmTC_62968.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_aa58a && [1/2] Building C object CMakeFiles/cmTC_aa58a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_aa58a.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-lto -MD -MT CMakeFiles/cmTC_aa58a.dir/src.c.o -MF CMakeFiles/cmTC_aa58a.dir/src.c.o.d -o CMakeFiles/cmTC_aa58a.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d5de1 && [1/2] Building C object CMakeFiles/cmTC_d5de1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_d5de1.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-lto -MD -MT CMakeFiles/cmTC_d5de1.dir/src.c.o -MF CMakeFiles/cmTC_d5de1.dir/src.c.o.d -o CMakeFiles/cmTC_d5de1.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_19eb0 && [1/2] Building C object CMakeFiles/cmTC_19eb0.dir/src.c.o
+FAILED: CMakeFiles/cmTC_19eb0.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-lto -MD -MT CMakeFiles/cmTC_19eb0.dir/src.c.o -MF CMakeFiles/cmTC_19eb0.dir/src.c.o.d -o CMakeFiles/cmTC_19eb0.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_60c8d && [1/2] Building C object CMakeFiles/cmTC_60c8d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_60c8d.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-lto -MD -MT CMakeFiles/cmTC_60c8d.dir/src.c.o -MF CMakeFiles/cmTC_60c8d.dir/src.c.o.d -o CMakeFiles/cmTC_60c8d.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_402ff && [1/2] Building C object CMakeFiles/cmTC_402ff.dir/src.c.o
+FAILED: CMakeFiles/cmTC_402ff.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-lto -MD -MT CMakeFiles/cmTC_402ff.dir/src.c.o -MF CMakeFiles/cmTC_402ff.dir/src.c.o.d -o CMakeFiles/cmTC_402ff.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c8ebd && [1/2] Building C object CMakeFiles/cmTC_c8ebd.dir/src.c.o
+warning: unknown warning option '-Wformat-overflow=2'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_c8ebd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ef60b && [1/2] Building C object CMakeFiles/cmTC_ef60b.dir/src.c.o
+warning: unknown warning option '-Wformat-truncation=2' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_ef60b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointercompare failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf094 && [1/2] Building C object CMakeFiles/cmTC_bf094.dir/src.c.o
+FAILED: CMakeFiles/cmTC_bf094.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointercompare  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-compare -MD -MT CMakeFiles/cmTC_bf094.dir/src.c.o -MF CMakeFiles/cmTC_bf094.dir/src.c.o.d -o CMakeFiles/cmTC_bf094.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-compare' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointersubtract failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_27570 && [1/2] Building C object CMakeFiles/cmTC_27570.dir/src.c.o
+FAILED: CMakeFiles/cmTC_27570.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointersubtract  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-subtract -MD -MT CMakeFiles/cmTC_27570.dir/src.c.o -MF CMakeFiles/cmTC_27570.dir/src.c.o.d -o CMakeFiles/cmTC_27570.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-subtract' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fcfprotection=full failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ee69c && [1/2] Building C object CMakeFiles/cmTC_ee69c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ee69c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fcfprotection=full  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fcf-protection=full -MD -MT CMakeFiles/cmTC_ee69c.dir/src.c.o -MF CMakeFiles/cmTC_ee69c.dir/src.c.o.d -o CMakeFiles/cmTC_ee69c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+error: option 'cf-protection=return' cannot be specified on this target
+error: option 'cf-protection=branch' cannot be specified on this target
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fstackprotector=all failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_050df && [1/2] Building C object CMakeFiles/cmTC_050df.dir/src.c.o
+FAILED: CMakeFiles/cmTC_050df.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fstackprotector=all  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fstack-protector=all -MD -MT CMakeFiles/cmTC_050df.dir/src.c.o -MF CMakeFiles/cmTC_050df.dir/src.c.o.d -o CMakeFiles/cmTC_050df.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument '-fstack-protector=all'; did you mean '-fstack-protector-all'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=leak failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ec916 && [1/2] Building C object CMakeFiles/cmTC_ec916.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ec916.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=leak  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=leak -MD -MT CMakeFiles/cmTC_ec916.dir/src.c.o -MF CMakeFiles/cmTC_ec916.dir/src.c.o.d -o CMakeFiles/cmTC_ec916.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=leak' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfi failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a0271 && [1/2] Building C object CMakeFiles/cmTC_a0271.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a0271.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi -MD -MT CMakeFiles/cmTC_a0271.dir/src.c.o -MF CMakeFiles/cmTC_a0271.dir/src.c.o.d -o CMakeFiles/cmTC_a0271.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0aac1 && [1/2] Building C object CMakeFiles/cmTC_0aac1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0aac1.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall -MD -MT CMakeFiles/cmTC_0aac1.dir/src.c.o -MF CMakeFiles/cmTC_0aac1.dir/src.c.o.d -o CMakeFiles/cmTC_0aac1.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-icall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_effcc && [1/2] Building C object CMakeFiles/cmTC_effcc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_effcc.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall -MD -MT CMakeFiles/cmTC_effcc.dir/src.c.o -MF CMakeFiles/cmTC_effcc.dir/src.c.o.d -o CMakeFiles/cmTC_effcc.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-vcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1710a && [1/2] Building C object CMakeFiles/cmTC_1710a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_1710a.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall -MD -MT CMakeFiles/cmTC_1710a.dir/src.c.o -MF CMakeFiles/cmTC_1710a.dir/src.c.o.d -o CMakeFiles/cmTC_1710a.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-nvcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e8b4f && [1/2] Building C object CMakeFiles/cmTC_e8b4f.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e8b4f.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast -MD -MT CMakeFiles/cmTC_e8b4f.dir/src.c.o -MF CMakeFiles/cmTC_e8b4f.dir/src.c.o.d -o CMakeFiles/cmTC_e8b4f.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-derived-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_21b41 && [1/2] Building C object CMakeFiles/cmTC_21b41.dir/src.c.o
+FAILED: CMakeFiles/cmTC_21b41.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast -MD -MT CMakeFiles/cmTC_21b41.dir/src.c.o -MF CMakeFiles/cmTC_21b41.dir/src.c.o.d -o CMakeFiles/cmTC_21b41.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-unrelated-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6807b && [1/2] Building C object CMakeFiles/cmTC_6807b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6807b.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access -MD -MT CMakeFiles/cmTC_6807b.dir/src.c.o -MF CMakeFiles/cmTC_6807b.dir/src.c.o.d -o CMakeFiles/cmTC_6807b.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_57a9e && [1/2] Building C object CMakeFiles/cmTC_57a9e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_57a9e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-general -MD -MT CMakeFiles/cmTC_57a9e.dir/src.c.o -MF CMakeFiles/cmTC_57a9e.dir/src.c.o.d -o CMakeFiles/cmTC_57a9e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_be711 && [1/2] Building C object CMakeFiles/cmTC_be711.dir/src.c.o
+FAILED: CMakeFiles/cmTC_be711.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-general -MD -MT CMakeFiles/cmTC_be711.dir/src.c.o -MF CMakeFiles/cmTC_be711.dir/src.c.o.d -o CMakeFiles/cmTC_be711.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_73826 && [1/2] Building C object CMakeFiles/cmTC_73826.dir/src.c.o
+FAILED: CMakeFiles/cmTC_73826.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-general -MD -MT CMakeFiles/cmTC_73826.dir/src.c.o -MF CMakeFiles/cmTC_73826.dir/src.c.o.d -o CMakeFiles/cmTC_73826.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bd801 && [1/2] Building C object CMakeFiles/cmTC_bd801.dir/src.c.o
+FAILED: CMakeFiles/cmTC_bd801.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-general -MD -MT CMakeFiles/cmTC_bd801.dir/src.c.o -MF CMakeFiles/cmTC_bd801.dir/src.c.o.d -o CMakeFiles/cmTC_bd801.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36835 && [1/2] Building C object CMakeFiles/cmTC_36835.dir/src.c.o
+FAILED: CMakeFiles/cmTC_36835.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-general -MD -MT CMakeFiles/cmTC_36835.dir/src.c.o -MF CMakeFiles/cmTC_36835.dir/src.c.o.d -o CMakeFiles/cmTC_36835.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fe50c && [1/2] Building C object CMakeFiles/cmTC_fe50c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fe50c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-general -MD -MT CMakeFiles/cmTC_fe50c.dir/src.c.o -MF CMakeFiles/cmTC_fe50c.dir/src.c.o.d -o CMakeFiles/cmTC_fe50c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6b03c && [1/2] Building C object CMakeFiles/cmTC_6b03c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6b03c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-lto -MD -MT CMakeFiles/cmTC_6b03c.dir/src.c.o -MF CMakeFiles/cmTC_6b03c.dir/src.c.o.d -o CMakeFiles/cmTC_6b03c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0af03 && [1/2] Building C object CMakeFiles/cmTC_0af03.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0af03.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-lto -MD -MT CMakeFiles/cmTC_0af03.dir/src.c.o -MF CMakeFiles/cmTC_0af03.dir/src.c.o.d -o CMakeFiles/cmTC_0af03.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_08878 && [1/2] Building C object CMakeFiles/cmTC_08878.dir/src.c.o
+FAILED: CMakeFiles/cmTC_08878.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-lto -MD -MT CMakeFiles/cmTC_08878.dir/src.c.o -MF CMakeFiles/cmTC_08878.dir/src.c.o.d -o CMakeFiles/cmTC_08878.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bbd59 && [1/2] Building C object CMakeFiles/cmTC_bbd59.dir/src.c.o
+FAILED: CMakeFiles/cmTC_bbd59.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-lto -MD -MT CMakeFiles/cmTC_bbd59.dir/src.c.o -MF CMakeFiles/cmTC_bbd59.dir/src.c.o.d -o CMakeFiles/cmTC_bbd59.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ea03a && [1/2] Building C object CMakeFiles/cmTC_ea03a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_ea03a.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-lto -MD -MT CMakeFiles/cmTC_ea03a.dir/src.c.o -MF CMakeFiles/cmTC_ea03a.dir/src.c.o.d -o CMakeFiles/cmTC_ea03a.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2a827 && [1/2] Building C object CMakeFiles/cmTC_2a827.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2a827.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-lto -MD -MT CMakeFiles/cmTC_2a827.dir/src.c.o -MF CMakeFiles/cmTC_2a827.dir/src.c.o.d -o CMakeFiles/cmTC_2a827.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0b74e && [1/2] Building C object CMakeFiles/cmTC_0b74e.dir/src.c.o
+warning: unknown warning option '-Wformat-overflow=2'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_0b74e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_28ebe && [1/2] Building C object CMakeFiles/cmTC_28ebe.dir/src.c.o
+warning: unknown warning option '-Wformat-truncation=2' [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking C executable cmTC_28ebe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointercompare failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f06af && [1/2] Building C object CMakeFiles/cmTC_f06af.dir/src.c.o
+FAILED: CMakeFiles/cmTC_f06af.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointercompare  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-compare -MD -MT CMakeFiles/cmTC_f06af.dir/src.c.o -MF CMakeFiles/cmTC_f06af.dir/src.c.o.d -o CMakeFiles/cmTC_f06af.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-compare' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointersubtract failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fd682 && [1/2] Building C object CMakeFiles/cmTC_fd682.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fd682.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=pointersubtract  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=pointer-subtract -MD -MT CMakeFiles/cmTC_fd682.dir/src.c.o -MF CMakeFiles/cmTC_fd682.dir/src.c.o.d -o CMakeFiles/cmTC_fd682.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: invalid argument '-fsanitize=pointer-subtract' only allowed with '-fsanitize=address'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fcfprotection=full failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e4f0a && [1/2] Building C object CMakeFiles/cmTC_e4f0a.dir/src.c.o
+FAILED: CMakeFiles/cmTC_e4f0a.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fcfprotection=full  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fcf-protection=full -MD -MT CMakeFiles/cmTC_e4f0a.dir/src.c.o -MF CMakeFiles/cmTC_e4f0a.dir/src.c.o.d -o CMakeFiles/cmTC_e4f0a.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+error: option 'cf-protection=return' cannot be specified on this target
+error: option 'cf-protection=branch' cannot be specified on this target
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fstackprotector=all failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1e361 && [1/2] Building C object CMakeFiles/cmTC_1e361.dir/src.c.o
+FAILED: CMakeFiles/cmTC_1e361.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fstackprotector=all  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fstack-protector=all -MD -MT CMakeFiles/cmTC_1e361.dir/src.c.o -MF CMakeFiles/cmTC_1e361.dir/src.c.o.d -o CMakeFiles/cmTC_1e361.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument '-fstack-protector=all'; did you mean '-fstack-protector-all'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=leak failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ae51 && [1/2] Building C object CMakeFiles/cmTC_2ae51.dir/src.c.o
+FAILED: CMakeFiles/cmTC_2ae51.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=leak  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=leak -MD -MT CMakeFiles/cmTC_2ae51.dir/src.c.o -MF CMakeFiles/cmTC_2ae51.dir/src.c.o.d -o CMakeFiles/cmTC_2ae51.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=leak' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfi failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9d73e && [1/2] Building C object CMakeFiles/cmTC_9d73e.dir/src.c.o
+FAILED: CMakeFiles/cmTC_9d73e.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfi  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi -MD -MT CMakeFiles/cmTC_9d73e.dir/src.c.o -MF CMakeFiles/cmTC_9d73e.dir/src.c.o.d -o CMakeFiles/cmTC_9d73e.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_023fc && [1/2] Building C object CMakeFiles/cmTC_023fc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_023fc.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall -MD -MT CMakeFiles/cmTC_023fc.dir/src.c.o -MF CMakeFiles/cmTC_023fc.dir/src.c.o.d -o CMakeFiles/cmTC_023fc.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-icall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6a1eb && [1/2] Building C object CMakeFiles/cmTC_6a1eb.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6a1eb.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall -MD -MT CMakeFiles/cmTC_6a1eb.dir/src.c.o -MF CMakeFiles/cmTC_6a1eb.dir/src.c.o.d -o CMakeFiles/cmTC_6a1eb.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-vcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcall failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50f59 && [1/2] Building C object CMakeFiles/cmTC_50f59.dir/src.c.o
+FAILED: CMakeFiles/cmTC_50f59.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcall  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall -MD -MT CMakeFiles/cmTC_50f59.dir/src.c.o -MF CMakeFiles/cmTC_50f59.dir/src.c.o.d -o CMakeFiles/cmTC_50f59.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-nvcall' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8840d && [1/2] Building C object CMakeFiles/cmTC_8840d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_8840d.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast -MD -MT CMakeFiles/cmTC_8840d.dir/src.c.o -MF CMakeFiles/cmTC_8840d.dir/src.c.o.d -o CMakeFiles/cmTC_8840d.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-derived-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcast failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c3495 && [1/2] Building C object CMakeFiles/cmTC_c3495.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c3495.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcast  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast -MD -MT CMakeFiles/cmTC_c3495.dir/src.c.o -MF CMakeFiles/cmTC_c3495.dir/src.c.o.d -o CMakeFiles/cmTC_c3495.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported option '-fsanitize=cfi-unrelated-cast' for target 'arm64-apple-darwin22.4.0'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b47a8 && [1/2] Building C object CMakeFiles/cmTC_b47a8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b47a8.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccess  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access -MD -MT CMakeFiles/cmTC_b47a8.dir/src.c.o -MF CMakeFiles/cmTC_b47a8.dir/src.c.o.d -o CMakeFiles/cmTC_b47a8.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36c6b && [1/2] Building C object CMakeFiles/cmTC_36c6b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_36c6b.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-general -MD -MT CMakeFiles/cmTC_36c6b.dir/src.c.o -MF CMakeFiles/cmTC_36c6b.dir/src.c.o.d -o CMakeFiles/cmTC_36c6b.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_07def && [1/2] Building C object CMakeFiles/cmTC_07def.dir/src.c.o
+FAILED: CMakeFiles/cmTC_07def.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-general -MD -MT CMakeFiles/cmTC_07def.dir/src.c.o -MF CMakeFiles/cmTC_07def.dir/src.c.o.d -o CMakeFiles/cmTC_07def.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcallgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a1a0c && [1/2] Building C object CMakeFiles/cmTC_a1a0c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a1a0c.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcallgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-general -MD -MT CMakeFiles/cmTC_a1a0c.dir/src.c.o -MF CMakeFiles/cmTC_a1a0c.dir/src.c.o.d -o CMakeFiles/cmTC_a1a0c.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d06b && [1/2] Building C object CMakeFiles/cmTC_4d06b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4d06b.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-general -MD -MT CMakeFiles/cmTC_4d06b.dir/src.c.o -MF CMakeFiles/cmTC_4d06b.dir/src.c.o.d -o CMakeFiles/cmTC_4d06b.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_57942 && [1/2] Building C object CMakeFiles/cmTC_57942.dir/src.c.o
+FAILED: CMakeFiles/cmTC_57942.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-general -MD -MT CMakeFiles/cmTC_57942.dir/src.c.o -MF CMakeFiles/cmTC_57942.dir/src.c.o.d -o CMakeFiles/cmTC_57942.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a5a63 && [1/2] Building C object CMakeFiles/cmTC_a5a63.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a5a63.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccessgeneral  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-general -MD -MT CMakeFiles/cmTC_a5a63.dir/src.c.o -MF CMakeFiles/cmTC_a5a63.dir/src.c.o.d -o CMakeFiles/cmTC_a5a63.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-general' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiicalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_04b51 && [1/2] Building C object CMakeFiles/cmTC_04b51.dir/src.c.o
+FAILED: CMakeFiles/cmTC_04b51.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiicalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-icall-lto -MD -MT CMakeFiles/cmTC_04b51.dir/src.c.o -MF CMakeFiles/cmTC_04b51.dir/src.c.o.d -o CMakeFiles/cmTC_04b51.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-icall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfivcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9148d && [1/2] Building C object CMakeFiles/cmTC_9148d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_9148d.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfivcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-vcall-lto -MD -MT CMakeFiles/cmTC_9148d.dir/src.c.o -MF CMakeFiles/cmTC_9148d.dir/src.c.o.d -o CMakeFiles/cmTC_9148d.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-vcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfinvcalllto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_17844 && [1/2] Building C object CMakeFiles/cmTC_17844.dir/src.c.o
+FAILED: CMakeFiles/cmTC_17844.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfinvcalllto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-nvcall-lto -MD -MT CMakeFiles/cmTC_17844.dir/src.c.o -MF CMakeFiles/cmTC_17844.dir/src.c.o.d -o CMakeFiles/cmTC_17844.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-nvcall-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiderivedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_585d6 && [1/2] Building C object CMakeFiles/cmTC_585d6.dir/src.c.o
+FAILED: CMakeFiles/cmTC_585d6.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiderivedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-derived-cast-lto -MD -MT CMakeFiles/cmTC_585d6.dir/src.c.o -MF CMakeFiles/cmTC_585d6.dir/src.c.o.d -o CMakeFiles/cmTC_585d6.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-derived-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cb3b9 && [1/2] Building C object CMakeFiles/cmTC_cb3b9.dir/src.c.o
+FAILED: CMakeFiles/cmTC_cb3b9.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedcastlto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-cast-lto -MD -MT CMakeFiles/cmTC_cb3b9.dir/src.c.o -MF CMakeFiles/cmTC_cb3b9.dir/src.c.o.d -o CMakeFiles/cmTC_cb3b9.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-cast-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto failed with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_202d8 && [1/2] Building C object CMakeFiles/cmTC_202d8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_202d8.dir/src.c.o 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DCOMPILER_SUPPORTS_fsanitize=cfiunrelatedaccesslto  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics   -fsanitize=cfi-unrelated-access-lto -MD -MT CMakeFiles/cmTC_202d8.dir/src.c.o -MF CMakeFiles/cmTC_202d8.dir/src.c.o.d -o CMakeFiles/cmTC_202d8.dir/src.c.o -c /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+clang: error: unsupported argument 'cfi-unrelated-access-lto' to option 'fsanitize='
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }

@@ -264,10 +264,26 @@ void run_server(int argc, char *argv[])
     acceptConnection(socket_fd);
 }
 
-//int main(int argc, char *argv[])
-//{
-//    run_server(argc, argv);
-//
-//    return EXIT_SUCCESS;
-//}
+void setHttpHeader(char httpHeader[])
+{
+    FILE *htmlData = fopen("./web/index.html", "r");
 
+    char line[100];
+    char responseData[8000];
+    while(fgets(line, 100, htmlData) != 0)
+    {
+        strcat(responseData, line);
+    }
+    strcat(httpHeader, responseData);
+}
+
+int main()
+{
+    createSocket();
+    bindSocket();
+    listenSocket();
+    setHttpHeader(httpHeader);
+    acceptConnection();
+
+    return EXIT_SUCCESS;
+}

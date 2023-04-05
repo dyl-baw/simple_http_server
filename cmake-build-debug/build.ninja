@@ -1,0 +1,232 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: process-server
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/
+
+#############################################
+# Utility command for doxygen
+
+build doxygen: phony CMakeFiles/doxygen
+
+# =============================================================================
+# Object build statements for EXECUTABLE target client
+
+
+#############################################
+# Order-only phony target for client
+
+build cmake_object_order_depends_target_client: phony || clang-tidy-client doxygen
+
+build CMakeFiles/client.dir/src/client.c.o: C_COMPILER__client_Debug /Users/kkaz/Documents/COMP4981/Untitled/http_server/src/client.c || cmake_object_order_depends_target_client
+  DEFINES = -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700
+  DEP_FILE = CMakeFiles/client.dir/src/client.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -Wextra -Wpedantic -Wshadow -Wstrict-overflow=4 -Wswitch-default -Wswitch-enum -Wunused -Wunused-macros -Wdate-time -Winvalid-pch -Wmissing-declarations -Wmissing-include-dirs -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wnull-dereference -Wstack-protector -Wdouble-promotion -Wvla -Walloca -Woverlength-strings -Wdisabled-optimization -Winline -Wcast-qual -Wfloat-equal -Wformat=2 -Wfree-nonheap-object -Wshift-overflow -Wwrite-strings -fsanitize=undefined -fno-delete-null-pointer-checks -fsanitize=shift -fsanitize=signed-integer-overflow -fsanitize=integer-divide-by-zero -fsanitize=unreachable -fsanitize=vla-bound -fsanitize=null -fsanitize=return -fsanitize=bool -fsanitize=enum -fsanitize=bounds -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fsanitize=nonnull-attribute -fsanitize=returns-nonnull-attribute -fsanitize=alignment -fsanitize=vptr -fsanitize=builtin -fsanitize=pointer-overflow -std=gnu17
+  INCLUDES = -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/client.dir
+  OBJECT_FILE_DIR = CMakeFiles/client.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target client
+
+
+#############################################
+# Link the executable client
+
+build client: C_EXECUTABLE_LINKER__client_Debug CMakeFiles/client.dir/src/client.c.o || clang-tidy-client doxygen
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  LINK_FLAGS = -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib -Wl,-rpath,/usr/local/lib64  -fsanitize=undefined
+  OBJECT_DIR = CMakeFiles/client.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = client
+  TARGET_PDB = client.dbg
+
+
+#############################################
+# Utility command for clang-tidy-client
+
+build clang-tidy-client: phony CMakeFiles/clang-tidy-client
+
+# =============================================================================
+# Object build statements for EXECUTABLE target process-server
+
+
+#############################################
+# Order-only phony target for process-server
+
+build cmake_object_order_depends_target_process-server: phony || clang-tidy-process-server doxygen
+
+build CMakeFiles/process-server.dir/src/server.c.o: C_COMPILER__process-server_Debug /Users/kkaz/Documents/COMP4981/Untitled/http_server/src/server.c || cmake_object_order_depends_target_process-server
+  DEFINES = -D_DARWIN_C_SOURCE -D_GNU_SOURCE -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700
+  DEP_FILE = CMakeFiles/process-server.dir/src/server.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -Wextra -Wpedantic -Wshadow -Wstrict-overflow=4 -Wswitch-default -Wswitch-enum -Wunused -Wunused-macros -Wdate-time -Winvalid-pch -Wmissing-declarations -Wmissing-include-dirs -Wmissing-prototypes -Wstrict-prototypes -Wundef -Wnull-dereference -Wstack-protector -Wdouble-promotion -Wvla -Walloca -Woverlength-strings -Wdisabled-optimization -Winline -Wcast-qual -Wfloat-equal -Wformat=2 -Wfree-nonheap-object -Wshift-overflow -Wwrite-strings -fsanitize=undefined -fno-delete-null-pointer-checks -fsanitize=shift -fsanitize=signed-integer-overflow -fsanitize=integer-divide-by-zero -fsanitize=unreachable -fsanitize=vla-bound -fsanitize=null -fsanitize=return -fsanitize=bool -fsanitize=enum -fsanitize=bounds -fsanitize=float-divide-by-zero -fsanitize=float-cast-overflow -fsanitize=nonnull-attribute -fsanitize=returns-nonnull-attribute -fsanitize=alignment -fsanitize=vptr -fsanitize=builtin -fsanitize=pointer-overflow -std=gnu17
+  INCLUDES = -I/usr/local/include
+  OBJECT_DIR = CMakeFiles/process-server.dir
+  OBJECT_FILE_DIR = CMakeFiles/process-server.dir/src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target process-server
+
+
+#############################################
+# Link the executable process-server
+
+build process-server: C_EXECUTABLE_LINKER__process-server_Debug CMakeFiles/process-server.dir/src/server.c.o | /usr/local/lib64/libdc_error.dylib /usr/local/lib64/libdc_env.dylib /usr/local/lib64/libdc_c.dylib /usr/local/lib64/libdc_posix.dylib /usr/local/lib64/libdc_posix_xsi.dylib /usr/local/lib64/libdc_unix.dylib /usr/local/lib64/libdc_util.dylib || clang-tidy-process-server doxygen
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  LINK_FLAGS = -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib -Wl,-rpath,/usr/local/lib64  /usr/local/lib64/libdc_error.dylib  /usr/local/lib64/libdc_env.dylib  /usr/local/lib64/libdc_c.dylib  /usr/local/lib64/libdc_posix.dylib  /usr/local/lib64/libdc_posix_xsi.dylib  /usr/local/lib64/libdc_unix.dylib  /usr/local/lib64/libdc_util.dylib  -fsanitize=undefined
+  OBJECT_DIR = CMakeFiles/process-server.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = process-server
+  TARGET_PDB = process-server.dbg
+
+
+#############################################
+# Utility command for clang-tidy-process-server
+
+build clang-tidy-process-server: phony CMakeFiles/clang-tidy-process-server
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kkaz/Documents/COMP4981/Untitled/http_server -B/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Custom command for CMakeFiles/doxygen
+
+build CMakeFiles/doxygen | ${cmake_ninja_workdir}CMakeFiles/doxygen: CUSTOM_COMMAND Doxyfile.doxygen
+  COMMAND = cd /Users/kkaz/Documents/COMP4981/Untitled/http_server && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E make_directory /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug && /opt/homebrew/bin/doxygen /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/Doxyfile.doxygen
+  DESC = Generating Doxygen documentation for shared_libraries
+
+
+#############################################
+# Custom command for CMakeFiles/clang-tidy-client
+
+build CMakeFiles/clang-tidy-client | ${cmake_ninja_workdir}CMakeFiles/clang-tidy-client: CUSTOM_COMMAND
+  COMMAND = cd /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug && /opt/homebrew/opt/llvm/bin/clang-tidy -p /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug --extra-arg=-I/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include "-checks=*,-altera-id-dependent-backward-branch,-altera-struct-pack-align,-altera-unroll-loops,-android-cloexec-accept,-android-cloexec-creat,-android-cloexec-dup,-android-cloexec-open,-android-cloexec-pipe,-android-cloexec-socket,-bugprone-easily-swappable-parameters,-cert-dcl03-c,-clang-analyzer-deadcode.DeadStores,-clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling,-clang-analyzer-security.insecureAPI.strcpy,-clang-diagnostic-cast-align,-clang-diagnostic-format-nonliteral,-clang-diagnostic-incompatible-pointer-types-discards-qualifiers,-clang-diagnostic-unknown-warning-option,-clang-diagnostic-unused-but-set-variable,-clang-diagnostic-unused-function,-clang-diagnostic-unused-parameter,-clang-diagnostic-unused-variable,-clang-diagnostic-vla,-cppcoreguidelines-init-variables,-google-readability-todo,-hicpp-static-assert,-llvmlibc-restrict-system-libc-headers,-misc-static-assert,-misc-unused-parameters,-modernize-macro-to-enum,-readability-identifier-length" --quiet /Users/kkaz/Documents/COMP4981/Untitled/http_server/src/client.c
+  DESC = Running clang-tidy
+
+
+#############################################
+# Custom command for CMakeFiles/clang-tidy-process-server
+
+build CMakeFiles/clang-tidy-process-server | ${cmake_ninja_workdir}CMakeFiles/clang-tidy-process-server: CUSTOM_COMMAND
+  COMMAND = cd /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug && /opt/homebrew/opt/llvm/bin/clang-tidy -p /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug --extra-arg=-I/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include "-checks=*,-altera-id-dependent-backward-branch,-altera-struct-pack-align,-altera-unroll-loops,-android-cloexec-accept,-android-cloexec-creat,-android-cloexec-dup,-android-cloexec-open,-android-cloexec-pipe,-android-cloexec-socket,-bugprone-easily-swappable-parameters,-cert-dcl03-c,-clang-analyzer-deadcode.DeadStores,-clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling,-clang-analyzer-security.insecureAPI.strcpy,-clang-diagnostic-cast-align,-clang-diagnostic-format-nonliteral,-clang-diagnostic-incompatible-pointer-types-discards-qualifiers,-clang-diagnostic-unknown-warning-option,-clang-diagnostic-unused-but-set-variable,-clang-diagnostic-unused-function,-clang-diagnostic-unused-parameter,-clang-diagnostic-unused-variable,-clang-diagnostic-vla,-cppcoreguidelines-init-variables,-google-readability-todo,-hicpp-static-assert,-llvmlibc-restrict-system-libc-headers,-misc-static-assert,-misc-unused-parameters,-modernize-macro-to-enum,-readability-identifier-length" --quiet /Users/kkaz/Documents/COMP4981/Untitled/http_server/src/server.c
+  DESC = Running clang-tidy
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug
+
+build all: phony client clang-tidy-client process-server clang-tidy-process-server
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kkaz/Documents/COMP4981/Untitled/http_server/CMakeLists.txt CMakeCache.txt CMakeDoxyfile.in CMakeDoxygenDefaults.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindDoxygen.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/kkaz/Documents/COMP4981/Untitled/http_server/CMakeLists.txt CMakeCache.txt CMakeDoxyfile.in CMakeDoxygenDefaults.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean additional files.
+
+build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
+  CONFIG = Debug
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN CMakeFiles/clean.additional
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

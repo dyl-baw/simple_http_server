@@ -1,0 +1,7 @@
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/doxygen.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/client.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/clang-tidy-client.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/process-server.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/clang-tidy-process-server.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

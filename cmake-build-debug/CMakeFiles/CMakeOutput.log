@@ -1,0 +1,1155 @@
+The system is: Darwin - 22.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b16b3 && [1/2] Building C object CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.4.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_b16b3
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_b16b3 -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -L. -L/usr/local/lib -L/usr/local/lib64 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:05 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+	.
+	/usr/local/lib
+	/usr/local/lib64
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b16b3 && [1/2] Building C object CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.4.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_b16b3]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o cmTC_b16b3 -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -L. -L/usr/local/lib -L/usr/local/lib64 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b16b3] ==> ignore
+    arg [-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+    arg [-L/usr/local/lib64] ==> dir [/usr/local/lib64]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_b16b3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;.;/usr/local/lib;/usr/local/lib64;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/lib64] ==> [/usr/local/lib64]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse library dir [.] ==> [/Users/kkaz/Documents/COMP4981/Untitled/http_server]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse library dir [/usr/local/lib64] ==> [/usr/local/lib64]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/usr/local/lib;/usr/local/lib64;/Users/kkaz/Documents/COMP4981/Untitled/http_server;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wall succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_82d33 && [1/2] Building C object CMakeFiles/cmTC_82d33.dir/src.c.o
+[2/2] Linking C executable cmTC_82d33
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wextra succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5f6d0 && [1/2] Building C object CMakeFiles/cmTC_5f6d0.dir/src.c.o
+[2/2] Linking C executable cmTC_5f6d0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wpedantic succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5d090 && [1/2] Building C object CMakeFiles/cmTC_5d090.dir/src.c.o
+[2/2] Linking C executable cmTC_5d090
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wshadow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d011 && [1/2] Building C object CMakeFiles/cmTC_4d011.dir/src.c.o
+[2/2] Linking C executable cmTC_4d011
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e43d0 && [1/2] Building C object CMakeFiles/cmTC_e43d0.dir/src.c.o
+[2/2] Linking C executable cmTC_e43d0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wswitchdefault succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d6cf2 && [1/2] Building C object CMakeFiles/cmTC_d6cf2.dir/src.c.o
+[2/2] Linking C executable cmTC_d6cf2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wswitchenum succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50be7 && [1/2] Building C object CMakeFiles/cmTC_50be7.dir/src.c.o
+[2/2] Linking C executable cmTC_50be7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunused succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_adc95 && [1/2] Building C object CMakeFiles/cmTC_adc95.dir/src.c.o
+[2/2] Linking C executable cmTC_adc95
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunusedmacros succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c8edd && [1/2] Building C object CMakeFiles/cmTC_c8edd.dir/src.c.o
+[2/2] Linking C executable cmTC_c8edd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdatetime succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dbc32 && [1/2] Building C object CMakeFiles/cmTC_dbc32.dir/src.c.o
+[2/2] Linking C executable cmTC_dbc32
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Winvalidpch succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ad7e && [1/2] Building C object CMakeFiles/cmTC_2ad7e.dir/src.c.o
+[2/2] Linking C executable cmTC_2ad7e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingdeclarations succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_42a54 && [1/2] Building C object CMakeFiles/cmTC_42a54.dir/src.c.o
+[2/2] Linking C executable cmTC_42a54
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingincludedirs succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d6778 && [1/2] Building C object CMakeFiles/cmTC_d6778.dir/src.c.o
+[2/2] Linking C executable cmTC_d6778
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingprototypes succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b196 && [1/2] Building C object CMakeFiles/cmTC_8b196.dir/src.c.o
+[2/2] Linking C executable cmTC_8b196
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictprototypes succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5e1ab && [1/2] Building C object CMakeFiles/cmTC_5e1ab.dir/src.c.o
+[2/2] Linking C executable cmTC_5e1ab
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wundef succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_352bc && [1/2] Building C object CMakeFiles/cmTC_352bc.dir/src.c.o
+[2/2] Linking C executable cmTC_352bc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wnulldereference succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_417db && [1/2] Building C object CMakeFiles/cmTC_417db.dir/src.c.o
+[2/2] Linking C executable cmTC_417db
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstackprotector succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_70f26 && [1/2] Building C object CMakeFiles/cmTC_70f26.dir/src.c.o
+[2/2] Linking C executable cmTC_70f26
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdoublepromotion succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_86af2 && [1/2] Building C object CMakeFiles/cmTC_86af2.dir/src.c.o
+[2/2] Linking C executable cmTC_86af2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wvla succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_eba26 && [1/2] Building C object CMakeFiles/cmTC_eba26.dir/src.c.o
+[2/2] Linking C executable cmTC_eba26
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Walloca succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b5e84 && [1/2] Building C object CMakeFiles/cmTC_b5e84.dir/src.c.o
+[2/2] Linking C executable cmTC_b5e84
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Woverlengthstrings succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_42731 && [1/2] Building C object CMakeFiles/cmTC_42731.dir/src.c.o
+[2/2] Linking C executable cmTC_42731
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdisabledoptimization succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_929df && [1/2] Building C object CMakeFiles/cmTC_929df.dir/src.c.o
+[2/2] Linking C executable cmTC_929df
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Winline succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2e4d3 && [1/2] Building C object CMakeFiles/cmTC_2e4d3.dir/src.c.o
+[2/2] Linking C executable cmTC_2e4d3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wcastqual succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a2256 && [1/2] Building C object CMakeFiles/cmTC_a2256.dir/src.c.o
+[2/2] Linking C executable cmTC_a2256
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wfloatequal succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3f878 && [1/2] Building C object CMakeFiles/cmTC_3f878.dir/src.c.o
+[2/2] Linking C executable cmTC_3f878
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63b62 && [1/2] Building C object CMakeFiles/cmTC_63b62.dir/src.c.o
+[2/2] Linking C executable cmTC_63b62
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wfreenonheapobject succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8a7d9 && [1/2] Building C object CMakeFiles/cmTC_8a7d9.dir/src.c.o
+[2/2] Linking C executable cmTC_8a7d9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wshiftoverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_45518 && [1/2] Building C object CMakeFiles/cmTC_45518.dir/src.c.o
+[2/2] Linking C executable cmTC_45518
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wwritestrings succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3569a && [1/2] Building C object CMakeFiles/cmTC_3569a.dir/src.c.o
+[2/2] Linking C executable cmTC_3569a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=undefined succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e753b && [1/2] Building C object CMakeFiles/cmTC_e753b.dir/src.c.o
+[2/2] Linking C executable cmTC_e753b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fnodeletenullpointerchecks succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_90f5b && [1/2] Building C object CMakeFiles/cmTC_90f5b.dir/src.c.o
+[2/2] Linking C executable cmTC_90f5b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=shift succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8cf60 && [1/2] Building C object CMakeFiles/cmTC_8cf60.dir/src.c.o
+[2/2] Linking C executable cmTC_8cf60
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=signedintegeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_56668 && [1/2] Building C object CMakeFiles/cmTC_56668.dir/src.c.o
+[2/2] Linking C executable cmTC_56668
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=integerdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b2b70 && [1/2] Building C object CMakeFiles/cmTC_b2b70.dir/src.c.o
+[2/2] Linking C executable cmTC_b2b70
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=unreachable succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_aa79f && [1/2] Building C object CMakeFiles/cmTC_aa79f.dir/src.c.o
+[2/2] Linking C executable cmTC_aa79f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vlabound succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7e4ce && [1/2] Building C object CMakeFiles/cmTC_7e4ce.dir/src.c.o
+[2/2] Linking C executable cmTC_7e4ce
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=null succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4d9b9 && [1/2] Building C object CMakeFiles/cmTC_4d9b9.dir/src.c.o
+[2/2] Linking C executable cmTC_4d9b9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=return succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_206f2 && [1/2] Building C object CMakeFiles/cmTC_206f2.dir/src.c.o
+[2/2] Linking C executable cmTC_206f2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bool succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1c85a && [1/2] Building C object CMakeFiles/cmTC_1c85a.dir/src.c.o
+[2/2] Linking C executable cmTC_1c85a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=enum succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0fea1 && [1/2] Building C object CMakeFiles/cmTC_0fea1.dir/src.c.o
+[2/2] Linking C executable cmTC_0fea1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bounds succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4000a && [1/2] Building C object CMakeFiles/cmTC_4000a.dir/src.c.o
+[2/2] Linking C executable cmTC_4000a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bac71 && [1/2] Building C object CMakeFiles/cmTC_bac71.dir/src.c.o
+[2/2] Linking C executable cmTC_bac71
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatcastoverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_70fc6 && [1/2] Building C object CMakeFiles/cmTC_70fc6.dir/src.c.o
+[2/2] Linking C executable cmTC_70fc6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=nonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_417b8 && [1/2] Building C object CMakeFiles/cmTC_417b8.dir/src.c.o
+[2/2] Linking C executable cmTC_417b8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=returnsnonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0ae7 && [1/2] Building C object CMakeFiles/cmTC_b0ae7.dir/src.c.o
+[2/2] Linking C executable cmTC_b0ae7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=alignment succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1da75 && [1/2] Building C object CMakeFiles/cmTC_1da75.dir/src.c.o
+[2/2] Linking C executable cmTC_1da75
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vptr succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_efb19 && [1/2] Building C object CMakeFiles/cmTC_efb19.dir/src.c.o
+[2/2] Linking C executable cmTC_efb19
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=builtin succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_deec9 && [1/2] Building C object CMakeFiles/cmTC_deec9.dir/src.c.o
+[2/2] Linking C executable cmTC_deec9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f7aa8 && [1/2] Building C object CMakeFiles/cmTC_f7aa8.dir/src.c.o
+[2/2] Linking C executable cmTC_f7aa8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_88f2c && [1/2] Building C object CMakeFiles/cmTC_88f2c.dir/src.c.o
+[2/2] Linking C executable cmTC_88f2c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_07ebc && [1/2] Building C object CMakeFiles/cmTC_07ebc.dir/src.c.o
+[2/2] Linking C executable cmTC_07ebc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=undefined succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_53f26 && [1/2] Building C object CMakeFiles/cmTC_53f26.dir/src.c.o
+[2/2] Linking C executable cmTC_53f26
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=shift succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cfc56 && [1/2] Building C object CMakeFiles/cmTC_cfc56.dir/src.c.o
+[2/2] Linking C executable cmTC_cfc56
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=signedintegeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ddee && [1/2] Building C object CMakeFiles/cmTC_4ddee.dir/src.c.o
+[2/2] Linking C executable cmTC_4ddee
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=integerdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b2ab0 && [1/2] Building C object CMakeFiles/cmTC_b2ab0.dir/src.c.o
+[2/2] Linking C executable cmTC_b2ab0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=unreachable succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5fa8d && [1/2] Building C object CMakeFiles/cmTC_5fa8d.dir/src.c.o
+[2/2] Linking C executable cmTC_5fa8d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vlabound succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_796ff && [1/2] Building C object CMakeFiles/cmTC_796ff.dir/src.c.o
+[2/2] Linking C executable cmTC_796ff
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=null succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e8818 && [1/2] Building C object CMakeFiles/cmTC_e8818.dir/src.c.o
+[2/2] Linking C executable cmTC_e8818
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=return succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d2e47 && [1/2] Building C object CMakeFiles/cmTC_d2e47.dir/src.c.o
+[2/2] Linking C executable cmTC_d2e47
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bool succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f26d2 && [1/2] Building C object CMakeFiles/cmTC_f26d2.dir/src.c.o
+[2/2] Linking C executable cmTC_f26d2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=enum succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_90741 && [1/2] Building C object CMakeFiles/cmTC_90741.dir/src.c.o
+[2/2] Linking C executable cmTC_90741
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bounds succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_95e3c && [1/2] Building C object CMakeFiles/cmTC_95e3c.dir/src.c.o
+[2/2] Linking C executable cmTC_95e3c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_609f3 && [1/2] Building C object CMakeFiles/cmTC_609f3.dir/src.c.o
+[2/2] Linking C executable cmTC_609f3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatcastoverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1ac08 && [1/2] Building C object CMakeFiles/cmTC_1ac08.dir/src.c.o
+[2/2] Linking C executable cmTC_1ac08
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=nonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_72a0e && [1/2] Building C object CMakeFiles/cmTC_72a0e.dir/src.c.o
+[2/2] Linking C executable cmTC_72a0e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=returnsnonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_85339 && [1/2] Building C object CMakeFiles/cmTC_85339.dir/src.c.o
+[2/2] Linking C executable cmTC_85339
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=alignment succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ca828 && [1/2] Building C object CMakeFiles/cmTC_ca828.dir/src.c.o
+[2/2] Linking C executable cmTC_ca828
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vptr succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bee92 && [1/2] Building C object CMakeFiles/cmTC_bee92.dir/src.c.o
+[2/2] Linking C executable cmTC_bee92
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=builtin succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1f83b && [1/2] Building C object CMakeFiles/cmTC_1f83b.dir/src.c.o
+[2/2] Linking C executable cmTC_1f83b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_24ef8 && [1/2] Building C object CMakeFiles/cmTC_24ef8.dir/src.c.o
+[2/2] Linking C executable cmTC_24ef8
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0eb03 && [1/2] Building C object CMakeFiles/cmTC_0eb03.dir/src.c.o
+[2/2] Linking C executable cmTC_0eb03
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36c40 && [1/2] Building C object CMakeFiles/cmTC_36c40.dir/src.c.o
+[2/2] Linking C executable cmTC_36c40
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=undefined succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c4062 && [1/2] Building C object CMakeFiles/cmTC_c4062.dir/src.c.o
+[2/2] Linking C executable cmTC_c4062
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=shift succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_628f2 && [1/2] Building C object CMakeFiles/cmTC_628f2.dir/src.c.o
+[2/2] Linking C executable cmTC_628f2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=signedintegeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ecb41 && [1/2] Building C object CMakeFiles/cmTC_ecb41.dir/src.c.o
+[2/2] Linking C executable cmTC_ecb41
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=integerdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_93261 && [1/2] Building C object CMakeFiles/cmTC_93261.dir/src.c.o
+[2/2] Linking C executable cmTC_93261
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=unreachable succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cd4c2 && [1/2] Building C object CMakeFiles/cmTC_cd4c2.dir/src.c.o
+[2/2] Linking C executable cmTC_cd4c2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vlabound succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7933a && [1/2] Building C object CMakeFiles/cmTC_7933a.dir/src.c.o
+[2/2] Linking C executable cmTC_7933a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=null succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2e068 && [1/2] Building C object CMakeFiles/cmTC_2e068.dir/src.c.o
+[2/2] Linking C executable cmTC_2e068
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=return succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ff34b && [1/2] Building C object CMakeFiles/cmTC_ff34b.dir/src.c.o
+[2/2] Linking C executable cmTC_ff34b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bool succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_436fd && [1/2] Building C object CMakeFiles/cmTC_436fd.dir/src.c.o
+[2/2] Linking C executable cmTC_436fd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=enum succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7febe && [1/2] Building C object CMakeFiles/cmTC_7febe.dir/src.c.o
+[2/2] Linking C executable cmTC_7febe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bounds succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1021f && [1/2] Building C object CMakeFiles/cmTC_1021f.dir/src.c.o
+[2/2] Linking C executable cmTC_1021f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6b704 && [1/2] Building C object CMakeFiles/cmTC_6b704.dir/src.c.o
+[2/2] Linking C executable cmTC_6b704
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatcastoverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ef554 && [1/2] Building C object CMakeFiles/cmTC_ef554.dir/src.c.o
+[2/2] Linking C executable cmTC_ef554
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=nonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50ad6 && [1/2] Building C object CMakeFiles/cmTC_50ad6.dir/src.c.o
+[2/2] Linking C executable cmTC_50ad6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=returnsnonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_152a1 && [1/2] Building C object CMakeFiles/cmTC_152a1.dir/src.c.o
+[2/2] Linking C executable cmTC_152a1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=alignment succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_94c45 && [1/2] Building C object CMakeFiles/cmTC_94c45.dir/src.c.o
+[2/2] Linking C executable cmTC_94c45
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vptr succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b5d4b && [1/2] Building C object CMakeFiles/cmTC_b5d4b.dir/src.c.o
+[2/2] Linking C executable cmTC_b5d4b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=builtin succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a2c53 && [1/2] Building C object CMakeFiles/cmTC_a2c53.dir/src.c.o
+[2/2] Linking C executable cmTC_a2c53
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_80483 && [1/2] Building C object CMakeFiles/cmTC_80483.dir/src.c.o
+[2/2] Linking C executable cmTC_80483
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_67ea1 && [1/2] Building C object CMakeFiles/cmTC_67ea1.dir/src.c.o
+[2/2] Linking C executable cmTC_67ea1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_076b4 && [1/2] Building C object CMakeFiles/cmTC_076b4.dir/src.c.o
+[2/2] Linking C executable cmTC_076b4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=undefined succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6725c && [1/2] Building C object CMakeFiles/cmTC_6725c.dir/src.c.o
+[2/2] Linking C executable cmTC_6725c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=shift succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9a42b && [1/2] Building C object CMakeFiles/cmTC_9a42b.dir/src.c.o
+[2/2] Linking C executable cmTC_9a42b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=signedintegeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb406 && [1/2] Building C object CMakeFiles/cmTC_bb406.dir/src.c.o
+[2/2] Linking C executable cmTC_bb406
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=integerdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1d28a && [1/2] Building C object CMakeFiles/cmTC_1d28a.dir/src.c.o
+[2/2] Linking C executable cmTC_1d28a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=unreachable succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_853f0 && [1/2] Building C object CMakeFiles/cmTC_853f0.dir/src.c.o
+[2/2] Linking C executable cmTC_853f0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vlabound succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_71484 && [1/2] Building C object CMakeFiles/cmTC_71484.dir/src.c.o
+[2/2] Linking C executable cmTC_71484
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=null succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_04c31 && [1/2] Building C object CMakeFiles/cmTC_04c31.dir/src.c.o
+[2/2] Linking C executable cmTC_04c31
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=return succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4b395 && [1/2] Building C object CMakeFiles/cmTC_4b395.dir/src.c.o
+[2/2] Linking C executable cmTC_4b395
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bool succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9bc32 && [1/2] Building C object CMakeFiles/cmTC_9bc32.dir/src.c.o
+[2/2] Linking C executable cmTC_9bc32
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=enum succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_887e5 && [1/2] Building C object CMakeFiles/cmTC_887e5.dir/src.c.o
+[2/2] Linking C executable cmTC_887e5
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=bounds succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9c877 && [1/2] Building C object CMakeFiles/cmTC_9c877.dir/src.c.o
+[2/2] Linking C executable cmTC_9c877
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatdividebyzero succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a8629 && [1/2] Building C object CMakeFiles/cmTC_a8629.dir/src.c.o
+[2/2] Linking C executable cmTC_a8629
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=floatcastoverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b13b3 && [1/2] Building C object CMakeFiles/cmTC_b13b3.dir/src.c.o
+[2/2] Linking C executable cmTC_b13b3
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=nonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_47705 && [1/2] Building C object CMakeFiles/cmTC_47705.dir/src.c.o
+[2/2] Linking C executable cmTC_47705
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=returnsnonnullattribute succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf097 && [1/2] Building C object CMakeFiles/cmTC_bf097.dir/src.c.o
+[2/2] Linking C executable cmTC_bf097
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=alignment succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4a0bf && [1/2] Building C object CMakeFiles/cmTC_4a0bf.dir/src.c.o
+[2/2] Linking C executable cmTC_4a0bf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=vptr succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0ee0b && [1/2] Building C object CMakeFiles/cmTC_0ee0b.dir/src.c.o
+[2/2] Linking C executable cmTC_0ee0b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=builtin succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1643e && [1/2] Building C object CMakeFiles/cmTC_1643e.dir/src.c.o
+[2/2] Linking C executable cmTC_1643e
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_fsanitize=pointeroverflow succeeded with the following output:
+Change Dir: /Users/kkaz/Documents/COMP4981/Untitled/http_server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0c4d9 && [1/2] Building C object CMakeFiles/cmTC_0c4d9.dir/src.c.o
+[2/2] Linking C executable cmTC_0c4d9
+
+
+Source file was:
+int main(void) { return 0; }
