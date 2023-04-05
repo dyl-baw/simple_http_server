@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     }
 
     const char *method = argv[1];
-    const char *path = argc > 2 ? argv[2] : "/"; // if argc is greater than 2, set path to 2. Otherwise it is /
+    const char *path = argc > 2 ? argv[2] : "/"; // if argc is greater than 2, set path to 2. Otherwise, it is set to /
     const char *server_ip = argc > 3 ? argv[3] : "127.0.0.1"; // if argc is greater than 3, if so, set server_ip to argv[3]
     int port = argc > 4 ? atoi(argv[4]) : DEFAULT_PORT; // if argc is > than we set the integer value of port to argv[4], otherwise it is set to DEFAULT_PORT
 
