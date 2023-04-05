@@ -13,10 +13,12 @@
 #define BUFFER_SIZE 1024
 
 int socket_fd;
+
 void createSocket()
 {
     socket_fd = socket(AF_INET, SOCK_STREAM, 0);
-    if (socket_fd == -1 ) {
+    if (socket_fd == -1)
+    {
         perror("Socket creation error");
         exit(EXIT_FAILURE);
     }
@@ -25,13 +27,13 @@ void createSocket()
 void bindSocket(int server_fd, const char *ip_address, int port)
 {
     struct sockaddr_in address;
-    memset(&address, 0 , sizeof(address));
+    memset(&address, 0, sizeof(address));
 
     address.sin_family = AF_INET;
     address.sin_addr.s_addr = inet_addr(ip_address);
     address.sin_port = htons(port);
 
-    if (bind(server_fd, (struct sockaddr *) &address, sizeof(address)) == - 1)
+    if (bind(server_fd, (struct sockaddr *) &address, sizeof(address)) == -1)
     {
         perror("Binding socket failed.");
         exit(EXIT_FAILURE);
@@ -40,7 +42,7 @@ void bindSocket(int server_fd, const char *ip_address, int port)
 
 void listenSocket(int server_fd)
 {
-    if ( listen(socket_fd, MAX_CONNECTIONS) == -1)
+    if (listen(socket_fd, MAX_CONNECTIONS) == -1)
     {
         perror("Listening failed");
         exit(EXIT_FAILURE);
@@ -56,7 +58,7 @@ int get_file_from_db(const char *path, char **data, size_t *data_len)
         return -1;
     }
 
-    datum key = { .dptr = (char *)path, .dsize = strlen(path) + 1 };
+    datum key = {.dptr = (char *) path, .dsize = strlen(path) + 1};
     datum value = dbm_fetch(db, key);
 
     if (value.dptr != NULL)
@@ -87,8 +89,8 @@ void store_file_to_db(const char *path, const char *data, size_t data_len)
         return;
     }
 
-    datum key = { .dptr = (char *)path, .dsize = strlen(path) + 1 };
-    datum value = { .dptr = (char *)data, .dsize = data_len };
+    datum key = {.dptr = (char *) path, .dsize = strlen(path) + 1};
+    datum value = {.dptr = (char *) data, .dsize = data_len};
 
     int result = dbm_store(db, key, value, DBM_REPLACE);
     if (result != 0)
@@ -113,32 +115,39 @@ void handle_request(int client_fd)
         char path[256];
         sscanf(buffer, "%s %s", method, path);
 
-        if (strcmp(method, "GET") == 0)
-        {
+        if (strcmp(method, "GET") == 0) {
             // Remove the leading '/' from the path
             memmove(path, path + 1, strlen(path));
 
-            // Open the requested file
-            FILE *file = fopen(path, "rb");
-            if (file != NULL)
-            {
-                // Send the HTTP header
-                snprintf(buffer, BUFFER_SIZE,
-                         "HTTP/1.0 200 OK\r\n"
-                         "Content-Type: text/html\r\n" // You can set the content type based on the file extension
-                         "\r\n");
-                send(client_fd, buffer, strlen(buffer), 0);
+            char *file_content = NULL;
+            size_t content_length = 0;
+            int result = get_file_from_db(path, &file_content, &content_length);
 
-                // Send the file content
-                while (!feof(file))
-                {
-                    size_t bytes_read = fread(buffer, 1, BUFFER_SIZE, file);
-                    send(client_fd, buffer, bytes_read, 0);
+            if (result == 0 && file_content != NULL) {
+                char *content_type;
+
+                // Determine the content type based on the file extension
+                if (strstr(path, ".html") != NULL) {
+                    content_type = "text/html";
+                } else if (strstr(path, ".css") != NULL) {
+                    content_type = "text/css";
+                } else if (strstr(path, ".js") != NULL) {
+                    content_type = "application/javascript";
+                } else {
+                    content_type = "text/plain";
                 }
 
-                fclose(file);
-            } else
-            {
+                snprintf(buffer, BUFFER_SIZE,
+                         "HTTP/1.0 200 OK\r\n"
+                         "Content-Type: %s\r\n"
+                         "Content-Length: %zu\r\n"
+                         "\r\n",
+                         content_type, content_length);
+                send(client_fd, buffer, strlen(buffer), 0);
+                send(client_fd, file_content, content_length, 0);
+
+                free(file_content);
+            } else {
                 snprintf(buffer, BUFFER_SIZE,
                          "HTTP/1.0 404 Not Found\r\n"
                          "Content-Type: text/plain\r\n"
@@ -147,7 +156,7 @@ void handle_request(int client_fd)
                          path);
                 send(client_fd, buffer, strlen(buffer), 0);
             }
-        } else if (strcmp(method, "POST") == 0)
+    } else if (strcmp(method, "POST") == 0)
         {
             // Remove the leading '/' from the path
             memmove(path, path + 1, strlen(path));
@@ -167,7 +176,8 @@ void handle_request(int client_fd)
                          "\r\n"
                          "Stored POST request file: %s\r\n",
                          path);
-            } else {
+            } else
+            {
                 snprintf(buffer, BUFFER_SIZE,
                          "HTTP/1.0 400 Bad Request\r\n"
                          "Content-Type: text/plain\r\n"
@@ -183,7 +193,8 @@ void handle_request(int client_fd)
                      "\r\n"
                      "Received HEADER request to: %s\r\n",
                      path);
-        } else {
+        } else
+        {
             snprintf(buffer, BUFFER_SIZE,
                      "HTTP/1.0 400 Bad Request\r\n"
                      "Content-Type: text/plain\r\n"
@@ -194,6 +205,7 @@ void handle_request(int client_fd)
 
         send(client_fd, buffer, strlen(buffer), 0);
     }
+
 }
 
 void acceptConnection(int server_fd)
