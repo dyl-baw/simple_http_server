@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/socket.h>
@@ -7,6 +6,8 @@
 #include <getopt.h>
 #include <unistd.h>
 #include <ndbm.h>
+#include <stdio.h>
+
 
 #define MAX_CONNECTIONS 5
 #define DEFAULT_PORT 80
@@ -30,7 +31,7 @@ void bind_socket(int server_fd, const char *ip_address, int port)
     memset(&address, 0, sizeof(address));
 
     address.sin_family = AF_INET;
-    address.sin_addr.s_addr = inet_addr(ip_address);
+    address.sin_addr.s_addr = (ip_address == NULL) ? INADDR_ANY : inet_addr(ip_address);
     address.sin_port = htons(port);
 
     if (bind(server_fd, (struct sockaddr *) &address, sizeof(address)) == -1)
@@ -39,6 +40,7 @@ void bind_socket(int server_fd, const char *ip_address, int port)
         exit(EXIT_FAILURE);
     }
 }
+
 
 void listen_socket(int server_fd)
 {
@@ -147,7 +149,7 @@ void handle_request(int client_fd)
                          "Content-Length: %zu\r\n"
                          "\r\n",
                          content_type, content_length);
-                send(client_fd, buffer, strlen(buffer), 0);
+//                send(client_fd, buffer, strlen(buffer), 0);
                 send(client_fd, file_content, content_length, 0);
 
                 free(file_content);
@@ -209,7 +211,6 @@ void handle_request(int client_fd)
 
         send(client_fd, buffer, strlen(buffer), 0);
     }
-
 }
 
 void accept_connection(int server_fd)
@@ -234,7 +235,7 @@ void accept_connection(int server_fd)
 
 void run_server(int argc, char *argv[])
 {
-    char *ip_address = NULL;
+    char *ip_address = "127.0.0.1"; //default to local host if no ip is provided.
     int port = DEFAULT_PORT;
     int opt;
 
@@ -259,6 +260,11 @@ void run_server(int argc, char *argv[])
         port = DEFAULT_PORT;
     }
 
+    if (ip_address == NULL)
+    {
+        fprintf(stderr, "Warning: No IP address provided. Binding to all available interfaces.\n");
+    }
+
     create_socket();
     bind_socket(socket_fd, ip_address, port);
     listen_socket(socket_fd);
@@ -268,10 +274,10 @@ void run_server(int argc, char *argv[])
     accept_connection(socket_fd);
 }
 
-//int main(int argc, char *argv[])
-//{
-//    run_server(argc, argv);
-//
-//    return EXIT_SUCCESS;
-//}
+int main(int argc, char *argv[])
+{
+    run_server(argc, argv);
+
+    return EXIT_SUCCESS;
+}
 
