@@ -192,8 +192,8 @@ void handle_request(int client_fd)
                          "\r\n"
                          "Invalid POST request format\r\n");
             }
-            send(client_fd, buffer, strlen(buffer), 0);
-        } else if (strcmp(method, "HEADER") == 0)
+//            send(client_fd, buffer, strlen(buffer), 0);
+        } else if (strcmp(method, "HEAD") == 0)
         {
             snprintf(buffer, BUFFER_SIZE,
                      "HTTP/1.0 200 OK\r\n"
@@ -290,6 +290,7 @@ void run_server(int argc, char *argv[])
         if (fds[0].revents & POLLIN) {
             // Accept the new connection
             int client_fd = accept_connection(socket_fd);
+            printf("Connection accepted\n\n");
 
             // Find a free entry in the fds array
             for (int i = 1; i < POSIX_OPEN_MAX; i++) {
