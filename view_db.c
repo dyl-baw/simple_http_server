@@ -7,7 +7,7 @@
 #include <ndbm.h>
 #include <fcntl.h>
 
-#define DB_NAME "file_storage_db"
+#define DB_NAME "file_database"
 
 void print_database_contents(DBM *db) {
     datum key, value;
