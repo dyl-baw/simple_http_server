@@ -75,7 +75,7 @@ void connect_to_server(int sockfd, const char *server_ip, int port) {
     server_addr.sin_port = htons(port);
     server_addr.sin_addr.s_addr = inet_addr(server_ip);
 
-    if (connect(sockfd, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+    if (connect(sockfd, (struct sockaddr *)&server_addr, sizeof(server_addr)) == -1) {
         perror("Error connecting to server");
         exit(EXIT_FAILURE);
     }
