@@ -55,6 +55,11 @@ void send_request(int sock, const char *method, const char *path, const char *se
         send(sock, buffer, strlen(buffer), 0);
         send(sock, file_contents, file_size, 0);
 
+        while (recv(sock, buffer, BUFFER_SIZE - 1, 0) > 0)
+        {
+            printf("%s", buffer);
+        }
+
         free(file_contents);
     }
 }
@@ -96,10 +101,6 @@ int main(int argc, char *argv[])
 
     int socket_fd = create_socket();
     connect_to_server(socket_fd, server_ip, port);
-
-    send_request(socket_fd, method, path, server_ip);
-
-    close(socket_fd);
 
     send_request(socket_fd, method, path, server_ip);
 
