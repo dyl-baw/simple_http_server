@@ -59,6 +59,28 @@ void send_request(int sock, const char *method, const char *path, const char *se
     }
 }
 
+int create_socket() {
+    int sock_fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sock_fd == -1) {
+        perror("Failed to create socket.");
+        exit(EXIT_FAILURE);
+    }
+
+    return sock_fd;
+}
+
+void connect_to_server(int sockfd, const char *server_ip, int port) {
+    struct sockaddr_in server_addr;
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_port = htons(port);
+    server_addr.sin_addr.s_addr = inet_addr(server_ip);
+
+    if (connect(sockfd, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Error connecting to server");
+        exit(EXIT_FAILURE);
+    }
+}
+
 
 int main(int argc, char *argv[])
 {
@@ -72,26 +94,15 @@ int main(int argc, char *argv[])
     const char *server_ip = argc > 3 ? argv[3] : "127.0.0.1"; // if argc is greater than 3, if so, set server_ip to argv[3]
     int port = argc > 4 ? atoi(argv[4]) : DEFAULT_PORT; // if argc is > than we set the integer value of port to argv[4], otherwise it is set to DEFAULT_PORT
 
-    int sock = socket(AF_INET, SOCK_STREAM, 0);
-    if (sock < 0)
-    {
-        perror("Error creating socket");
-        exit(EXIT_FAILURE);
-    }
+    int socket_fd = create_socket();
+    connect_to_server(socket_fd, server_ip, port);
 
-    struct sockaddr_in server_addr;
-    server_addr.sin_family = AF_INET;
-    server_addr.sin_port = htons(port);
-    server_addr.sin_addr.s_addr = inet_addr(server_ip);
+    send_request(socket_fd, method, path, server_ip);
 
-    if (connect(sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0)
-    {
-        perror("Error connecting to server");
-        exit(EXIT_FAILURE);
-    }
+    close(socket_fd);
 
-    send_request(sock, method, path, server_ip);
+    send_request(socket_fd, method, path, server_ip);
 
-    close(sock);
+    close(socket_fd);
     return 0;
 }
