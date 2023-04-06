@@ -109,7 +109,7 @@ void handle_request(int client_fd)
     if (bytes_received > 0)
     {
         buffer[bytes_received] = '\0';
-        printf("Client request:\n%s\n", buffer);
+        printf("Client request: %s\n", buffer);
 
         char method[16];
         char path[256];
@@ -127,13 +127,17 @@ void handle_request(int client_fd)
                 char *content_type;
 
                 // Determine the content type based on the file extension
-                if (strstr(path, ".html") != NULL) {
+                if (strstr(path, ".html") != NULL)
+                {
                     content_type = "text/html";
-                } else if (strstr(path, ".css") != NULL) {
+                } else if (strstr(path, ".css") != NULL)
+                {
                     content_type = "text/css";
-                } else if (strstr(path, ".js") != NULL) {
+                } else if (strstr(path, ".js") != NULL)
+                {
                     content_type = "application/javascript";
-                } else {
+                } else
+                {
                     content_type = "text/plain";
                 }
 
@@ -208,7 +212,7 @@ void handle_request(int client_fd)
 
 }
 
-void acceptConnection(int server_fd)
+void accept_connection(int server_fd)
 {
     int client_fd;
     struct sockaddr_in client_addr;
@@ -261,7 +265,7 @@ void run_server(int argc, char *argv[])
 
     printf("Server running on IP:%s PORT:%d\n", ip_address, port);
 
-    acceptConnection(socket_fd);
+    accept_connection(socket_fd);
 }
 
 //int main(int argc, char *argv[])
