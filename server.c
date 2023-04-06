@@ -268,6 +268,8 @@ void run_server(int argc, char *argv[])
     bind_socket(socket_fd, ip_address, port);
     listen_socket(socket_fd);
 
+    printf("Server running on IP:%s PORT:%d\n", ip_address, port);
+
     struct pollfd fds[POSIX_OPEN_MAX];
     for (int i = 0; i < POSIX_OPEN_MAX; i++) {
         fds[i].fd = -1;
@@ -321,7 +323,6 @@ void run_server(int argc, char *argv[])
             }
         }
     }
-    close(socket_fd);
 }
 
 int main(int argc, char *argv[])
