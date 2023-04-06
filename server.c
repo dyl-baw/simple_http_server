@@ -7,11 +7,13 @@
 #include <unistd.h>
 #include <ndbm.h>
 #include <stdio.h>
+#include <poll.h>
 
 
 #define MAX_CONNECTIONS 5
 #define DEFAULT_PORT 80
 #define BUFFER_SIZE 1024
+#define POSIX_OPEN_MAX 20
 
 int socket_fd;
 
@@ -149,7 +151,7 @@ void handle_request(int client_fd)
                          "Content-Length: %zu\r\n"
                          "\r\n",
                          content_type, content_length);
-//                send(client_fd, buffer, strlen(buffer), 0);
+                send(client_fd, buffer, strlen(buffer), 0);
                 send(client_fd, file_content, content_length, 0);
 
                 free(file_content);
@@ -213,25 +215,22 @@ void handle_request(int client_fd)
     }
 }
 
-void accept_connection(int server_fd)
+int accept_connection(int server_fd)
 {
     int client_fd;
     struct sockaddr_in client_addr;
     socklen_t client_addr_length = sizeof(client_addr);
 
-    while (1)
+    client_fd = accept(server_fd, (struct sockaddr *) &client_addr, &client_addr_length);
+    if (client_fd == -1)
     {
-        client_fd = accept(server_fd, (struct sockaddr *) &client_addr, &client_addr_length);
-        if (client_fd == -1)
-        {
-            perror("Accept failed");
-            exit(EXIT_FAILURE);
-        }
-
-        handle_request(client_fd);
-        close(client_fd);
+        perror("Accept failed");
+        exit(EXIT_FAILURE);
     }
+
+    return client_fd;
 }
+
 
 void run_server(int argc, char *argv[])
 {
@@ -269,9 +268,60 @@ void run_server(int argc, char *argv[])
     bind_socket(socket_fd, ip_address, port);
     listen_socket(socket_fd);
 
-    printf("Server running on IP:%s PORT:%d\n", ip_address, port);
+    struct pollfd fds[POSIX_OPEN_MAX];
+    for (int i = 0; i < POSIX_OPEN_MAX; i++) {
+        fds[i].fd = -1;
+    }
 
-    accept_connection(socket_fd);
+    fds[0].fd = socket_fd;
+    fds[0].events = POLLIN;
+
+    int max_fd_index = 0;  // Add this variable to track the maximum index
+
+    while (1) {
+        int ready = poll(fds, max_fd_index + 1, -1);  // Change OPEN_MAX to max_fd_index + 1
+        if (ready < 0) {
+            perror("Error in poll");
+            exit(EXIT_FAILURE);
+        }
+
+        if (fds[0].revents & POLLIN) {
+            // Accept the new connection
+            int client_fd = accept_connection(socket_fd);
+
+            // Find a free entry in the fds array
+            for (int i = 1; i < POSIX_OPEN_MAX; i++) {
+                if (fds[i].fd < 0) {
+                    fds[i].fd = client_fd;
+                    fds[i].events = POLLIN;
+                    if (i > max_fd_index) {
+                        max_fd_index = i;  // Update the maximum index
+                    }
+                    break;
+                }
+            }
+            if (--ready <= 0) {
+                continue;
+            }
+        }
+
+        // Check for data from clients
+        for (int i = 1; i <= max_fd_index; i++) {  // Change the loop limit to max_fd_index
+            if (fds[i].fd < 0) {
+                continue;
+            }
+
+            if (fds[i].revents & (POLLIN | POLLERR)) {
+                handle_request(fds[i].fd);
+                close(fds[i].fd);
+                fds[i].fd = -1;
+            }
+            if (--ready <= 0) {
+                break;
+            }
+        }
+    }
+    close(socket_fd);
 }
 
 int main(int argc, char *argv[])
